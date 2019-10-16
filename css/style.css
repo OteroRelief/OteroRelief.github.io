@@ -1137,7 +1137,7 @@ h1, h2, h3, h4, h5,
 .faq-section {
   background: #ebebeb;
   min-height: 100vh;
-  padding: 0 0 0;
+  padding: 20vh 0 0;
 }
 .faq-title h2 {
   position: relative;
