@@ -1153,7 +1153,7 @@ h1, h2, h3, h4, h5,
   left: 50%;
   width: 60px;
   height: 2px;
-  background: dodgerblue;
+  background: #003253;
   bottom: -25px;
   margin-left: -30px;
 }
@@ -1218,7 +1218,7 @@ h1, h2, h3, h4, h5,
   -moz-border-radius: 100px;
   border-radius: 100px;
   text-align: center;
-  background: dodgerblue;
+  background: #003253;
   color: #ebebeb;
   font-size: 12px;
   margin-right: 20px;
