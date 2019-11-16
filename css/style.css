@@ -1180,7 +1180,7 @@ h1, h2, h3, h4, h5,
 }
 
 .faq {
-  background: #ebebeb;
+  background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
   border-radius: 4px;
 }
@@ -1235,7 +1235,7 @@ h1, h2, h3, h4, h5,
   -moz-border-radius: 100px;
   border-radius: 100px;
   text-align: center;
-  background: #003253;
+  background: #797bb3;
   color: #ebebeb;
   font-size: 12px;
   margin-right: 20px;
