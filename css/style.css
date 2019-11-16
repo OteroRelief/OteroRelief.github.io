@@ -109,8 +109,8 @@ h1, h2, h3, h4, h5,
 
 .btn.btn-blue {
   border-width: 2px;
-  border-color: #209f9f;
-  background: #209f9f;
+  border-color: #797bb3;
+  background: #797bb3;
   color: #fff; }
 .btn.btn-blue:hover {
   color: #000;
@@ -119,8 +119,8 @@ h1, h2, h3, h4, h5,
   color: #ebebeb;
   background-color: transparent; }
 .btn.btn-blue.btn-outline-blue:hover {
-  border-color: #209f9f;
-  background: #209f9f;
+  border-color: #797bb3;
+  background: #797bb3;
   color: #fff; }
   .btn.btn-pill {
     border-radius: 30px; }
