@@ -700,7 +700,7 @@ h1, h2, h3, h4, h5,
 
 .form-box {
   padding: 40px;
-  background: #ebebeb;
+  background: #fff;
   border-radius: 7px; }
 
 .site-section {
@@ -1305,4 +1305,10 @@ h1, h2, h3, h4, h5,
 #accordion .panel .panel-title a[aria-expanded="true"] span:before {
   -webkit-transform: translate(-50%) rotate(0deg);
   transform: translate(-50%) rotate(0deg)
+}
+
+#send {
+  background-color:#797bb3;
+  color:#fff;
+  cursor:pointer;
 }
