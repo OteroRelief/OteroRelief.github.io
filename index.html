@@ -29,9 +29,10 @@
     <link rel="stylesheet" href="css/style.css">
     
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="
+  background: #ebebeb;">
   
-  <div class="site-wrap">
+  <div class="site-wrap site-section">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -318,20 +319,32 @@
           <div class="col-lg-8 text-center"  data-aos="fade-up" data-aos-delay="" style="top:15vh"><div style = "padding-bottom: 50px;">
             <div class="card shadow">
               <div class = "card-header">
-                <h4 style = "padding-top: 15px; padding-bottom: 15px;color:#000">Sorry!</h4>
+                <h4 style = "padding-top: 15px; padding-bottom: 15px;color:#000">Sorry! Down for maintenance</h4>
               </div>
               <div class = "card-body">
-                <p style="padding-top:10px; color: #000;"><b>The contact section is down for maintenance.</b></p>
+                <p style="padding-top:10px; color: #000;"><b>
+                  As Otero.ca is presently in beta-testing, we are currently launched in only select partnered schools of SD41. If you are a student of the Burnaby school district, please enter your email below for access.</b>
+                </p>
+                <p id="warndialog" style="color:red"></p>
+                <form action="javascript:checkEm()" method="post" class="form-box">
+                  <input id="email" type="text" class="form-control" placeholder="Email Address" required>
+                </form>
+                <p>
+                  <b>
+                <br>Our team is working hard to bring Otero.ca to your school in the near future! For more information, please feel free to contact us at <a href = "mailto:oteroteam@gmail.com">oteroteam@gmail.com</a></b></p>
               </div>
             </div>
           </div>
           </div>
         </div>
       </div>
-      <!--div class ="text-center site-section" >
-        <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height shadow" src="https://airtable.com/embed/shr4tBNxiRZbapTpq?backgroundColor=gray" frameborder="0" onmousewheel="" width="65%" style="background: transparent; border-radius:30px;"></iframe>
-      </div-->
-    </div>
+
+        <div id="ctf">
+          <div class ="text-center site-section">
+            <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height shadow" src="https://airtable.com/embed/shr4tBNxiRZbapTpq?backgroundColor=gray" frameborder="0" onmousewheel="" width="65%" style="background: transparent; border-radius:30px;"></iframe>
+          </div>
+        </div>
+      </div>
 
     <footer class="footer-section">
 
@@ -370,6 +383,8 @@
 
   
   <script src="js/main.js"></script>
+  <script src="js/checkEmail.js"></script>
+  <script>setTimeout(loadCheck,10)</script>
     
   </body>
 </html>
